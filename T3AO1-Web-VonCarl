@@ -1,0 +1,166 @@
+<h1 align=center>T3AO1 Web VonCarl</h1>
+<h1 align=center>Assassin's Creed Quotes</h1>
+      <!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed_Wiki">Wikia</a></li>
+  <li><a href="http://assassinscreed.ubi.com/en-gb/news/">News</a></li>
+  <li><a href="http://assassinscreed.ubi.com/en-ca/home/">Website</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+
+<a href="http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed_Wiki">http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed_Wiki</a><br>
+<a href="https://en.wikipedia.org/wiki/Assassin's_Creed">https://en.wikipedia.org/wiki/Assassin's_Creed</a><br>
+
+<TABLE BORDER="5"    WIDTH="50%"   CELLPADDING="4" CELLSPACING="3">
+   <TR>
+      <TH COLSPAN="9"<BR><H3>MOST AWESOME ASSASSIN'S CREED QUOTES</H3>
+      </TH>
+   </TR>
+      <TH>Altaïr Ibn-La'Ahad <img src="http://www.hdwallpapers.in/walls/altair_ibn_la_ahad-wide.jpg" width="640" height="480"> </TH>
+      <TH>Ezio Auditore da Firenze <img src="http://wallpapercave.com/wp/QVFjY0B.jpg" width="640" height="480"</TH>
+      <TH>Ezio Auditore da Firenze Brotherhood <img src="https://i.ytimg.com/vi/CZNWt4qEk8Y/maxresdefault.jpg" width="640" hright="480"></TH>
+      <TH>Ezio Auditore da Firenze Revelations <img src="https://www.walldevil.com/wallpapers/w01/519119-assassins-creed-assassins-creed-revelations-ezio-auditore-da-firenze-video-games-warriors.jpg" width="" height="480"></TH> 
+      <TH>Connor Kenway <img src="http://wallpaperrs.com/uploads/games/connor-kenway-assassin039s-creed-iii-wide-wallpaper-24915.jpg" width="640" height="480"</TH>
+      <TH>Edward Kenway <img src="http://www.hdwallpapersact.com/wp-content/uploads/2013/12/actor-edward-kenway-widescreen.jpg" width="640" height="480" </th>
+      <TH>Shay Patrick Cormac <img src="http://www.splendidwallpaper.com/wp-content/uploads/assassins-creed-rogue-shay-wallpaper-2880x1800.jpg" width="640" height="480"</TH>
+      <TH>Arno Dorian <img src="http://cdn.pcwallart.com/images/assassins-creed-unity-arno-wallpaper-1.jpg" width="640" height="480"</TH>
+      <TH>Jacob Frye and Evie Frye <img src="https://images5.alphacoders.com/654/654187.jpg" width="640" height="480"</TH>
+   </TR>
+   <TR ALIGN="CENTER">
+      <TD>"I have seen what comes of those who raise themselves above others."</TD>
+      <TD>"When I was a young man, I had liberty, but I did not see it. I had time, but I did not know it. And I had love, but I did not feel it. Many decades would pass before I understood the meaning of all three. And now, the twilight of my life, this understanding has passed into contentment. Love, liberty, and time: once so disposable, are the fuels that drive me forward. And love, most especially, mio caro. For you, our children, our brothers and sisters. And for the vast and wonderful world that gave us life, and keeps us guessing. Endless affection, mia Sofia. Forever yours, Ezio Auditore."</TD>
+      <TD>"You condemn what you do not understand."</TD>
+      <TD>"The things I do to save the world surprise me time to time. Like learning how to play the lute and making these words rhyme."</TD>
+      <TD>"It is better to have faith in something than none at all."</TD>
+      <TD>"If Nothing is true, then why believe anything? And if everything is permitted... why not chase every desire?"</TD>
+      <TD>Data 7</TD>
+      <TD>Data 8</TD>
+      <TD>Data 9</TD>
+   </TR>
+   <TR ALIGN="CENTER">
+      <TD>"Nothing is true and everything is permitted."</TD>
+      <TD>"I have lived my life as best I could, not knowing its purpose, but drawn forward like a moth to a distant moon. And here at last, I discover a strange truth. That I am only a conduit, for a message that eludes my understanding."</TD>
+      <TD>“To say that nothing is true is to realize that the foundations of society are fragile and that we must be the shepherds of our civilization. 
+To say that everything is permitted is to understand that we are the architects of our actions, and that we must live with their consequences, whether glorious of tragic.”</TD>
+      <TD>"We must never give up the fight. The minute we do that, we have lost."</TD>
+      <TD>"While men of courage write history of this day, the future of our land depends on those who are truly free."</TD>
+      <TD>"For years I've been rushing around, taking whatever I fancied, not giving a tinker's curse for those I hurt. Yet here I am... with riches and reputation, feeling no wiser than when I left home. Yet when I turn around, and look at the course I've run... there's not a man or woman that I love left standing beside me."</TD>
+
+   </TR>
+   <TR ALIGN="CENTER">
+      <TD>"If only I had possessed the humility to say to myself, I have seen enough for one life, I've done my part. Then again, there is no greater glory than fighting to find the truth."</TD>
+      <TD>"We work in the dark to serve the light, we are assassins!"</TD>
+      <TD>"A True Leader empowers the people he rules."</TD>
+      <TD>"We are free to follow our own path. There are those who will take that freedom from us, and too many of you gladlygive it. But it is our ability to choose, whatever you think is true, that makes us human. There is no book or teachers to give you the answers, to show you the way. Choose your own way, do not follow anyone else."</TD>
+      <TD>"It's only after you've lost evrything that you're free to do anything."</TD>
+      <TD>"Men dream. But dreams hold no value here. What was first the bright light of hope has now turned into a long night of captivity. Lost in the dark, we surrender our minds and forget who we are. But some of us have woken up. They remind us that we all have a choice. To stand, not kneel. To oppose, not obey. To live, not just exist."</TD>
+      </TR>
+   <TR ALIGN="CENTER">
+      <TD>"I long for the day when men turn away from invisible monsters and once more embrace a more rational view of the world. But these new religions are so convenient and promise such terrible punishment should one reject them. I worry that fear shall keep us stuck to what is surely the greatest lie ever told."</TD>
+      <TD>"Wanting something does not give you the right to have it."</TD>
+      <TD>"My story is one of many thousands, and the world will not suffer if it ends too soon."</TD>
+      <TD>"Do not fear the darkness, but welcome its embrace."</TD>
+      <TD>"Sometimes standing against evil is more important than defeating it. The greatest heroes stand because it is right to do so, not because they believe they will walk away with their lives."</TD>
+      <TD>"It's hard to let go of the life you know best."</TD>
+   </TR>
+</TABLE>
+
+<form name="htmlform" method="post" action="html_form_send.php">
+<table width="450px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label> 
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30" placeholder="VonCarl">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30" placeholder="Tongohan">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30" placeholder="voncarltongohan@gmail.com">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30" placeholder="+16045327827">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6" placeholder="This Webpage is Awesome!!!!."></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit"> <input type="Reset" value="Reset"> <input type="File" value="File"> 
+  <input type="Range" value type="Range">
+  <input type="Radio" value type="Radio">
+ </td>
+</tr>
+</table>
+</form>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Full Phonegap Computer Programming Course Summary By Von Carlo</title>
+ 
+<style>
+body {
+        background-image: url("http://picview.info/download/20150530/spots-reflections-soft-light-1920x1080.jpg ");
+} 
+
