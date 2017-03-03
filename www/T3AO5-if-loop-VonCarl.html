@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>T3AO5-javascript-VonCarl.html</title>
+ 
+<style>
+body {
+        background-image: url("http://picview.info/download/20150530/spots-reflections-soft-light-1920x1080.jpg ");
+} 
+
+</style>
+ 
+</head>
+ 
+<body>
+ 
+</body>
+</html>
+<h2 style="font-size:45px; color:red;">  </h2>
+<h1 align=center>If Loops by VonCarl</h1>
+
+
+Write a Loop number and then your name on each line
+for 100 lines<br><br>
+
+<textarea id="myArea01" >VonCarl</textarea><br><br>
+  
+<input type=button value="click me" onclick="{
+
+ for (myNum = 1; myNum<= 7; myNum++){
+  
+     if(myNum %2 == 1) {
+       document.getElementById('myDiv01').innerHTML += 
+       '<font Color=green style=background-color:red;>Loop is ' + myNum + '<br> </font>'
+ }  else {
+    document.getElementById('myDiv01').innerHTML += 
+     'Loop is '+ myNum + '<br>'
+    }
+  }
+ 
+
+
+ document.getElementById('myDiv01').innerHTML +=
+   document.getElementById('myArea01').value
+   
+}"><br><br>
+<div id="myDiv01"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
