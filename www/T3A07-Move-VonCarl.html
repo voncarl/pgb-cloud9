@@ -1,0 +1,65 @@
+<title>T3A07-Move-VonCarl.html</title>
+<h1 align="center" style="font-family:courier;"><strong><q>Mr. Stickman!</q></strong></h1>
+
+<body bgcolor=white onkeydown="{
+if (String.fromCharCode(event.keyCode) == 'W') {
+    document.getElementById('myW').click()
+} else if (String.fromCharCode(event.keyCode) == 'A') {
+    document.getElementById('myA').click()
+} else if (String.fromCharCode(event.keyCode) == 'S') {
+    document.getElementById('myS').click()
+} else if (String.fromCharCode(event.keyCode) == 'D') {
+    document.getElementById('myD').click()
+}
+
+}">
+<input style="background-Color : darkblue; color:white;
+    border-style : groove ;
+    border-width : 10px; border-color :powderblack;" type=button id="myW" value="W" onclick="{
+
+document.getElementById('my01').style.top =
+ parseInt(document.getElementById('my01').style.top) + -10 + 'px'
+ 
+}">
+
+<input style="background-Color : darkblue; color:white;
+    border-style : groove ;
+    border-width : 10px; border-color : powderblack;" type=button id="myA" value="A" onclick="{
+
+document.getElementById('my01').style.left =
+ parseInt(document.getElementById('my01').style.left) + -10 + 'px'
+document.getElementById('my01').style.visibility = 'visible'
+}">
+
+<input style="background-Color : darkblue; color:white;
+    border-style : groove ;
+    border-width : 10px; border-color : powderblack;" type=button id="myS" value="S" onclick="{
+
+document.getElementById('my01').style.top =
+ parseInt(document.getElementById('my01').style.top) + 10 + 'px'
+ 
+}">
+
+<input style="background-Color : darkblue; color:white;
+    border-style : groove ;
+    border-width : 10px; border-color : powderblack;" type=button id="myD" value="D" onclick="{
+
+document.getElementById('my01').style.left =
+ parseInt(document.getElementById('my01').style.left) + 10 + 'px'
+ 
+}">
+
+<img id="my01" style="position:relative; left:0px; top:0px;"
+     src="http://www.clipartbest.com/cliparts/eTM/kqp/eTMkqpoAc.gif" width="120" height="110">
+
+
+</body>
+
+
+
+
+
+
+
+    
+    

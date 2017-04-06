@@ -1,0 +1,40 @@
+<title>T3A09-Arrays-VonCarl.html</title>
+<style>
+body {
+background-image: url("http://picview.info/download/20150530/spots-reflections-soft-light-1920x1080.jpg ");
+}
+</style>
+<h1 align="center" style="font-family:courier;"><strong><q>Arrays!</q></strong></h1>
+<script>
+    
+    document.myName = new Array(7)
+    
+    document.myName[0] = 'John'
+    document.myName[1] = 'Jed'
+    document.myName[2] = 'Oliver'
+    document.myName[3] = 'Michael'
+    document.myName[4] = 'Tony'
+    document.myName[5] = 'Max'
+    document.myName[6] = 'Mary'
+    document.myName[7] = 'Peter'
+    document.myCounter = 7
+    
+    
+    
+</script>
+
+<input type=button value="Show Array" onclick="{
+ document.getElementById('myDiv1').innerHTML = ''
+ for (myLoop = 0; myLoop <= 7; myLoop++){
+   document.getElementById('myDiv1').innerHTML += myLoop +' '+ document.myName[myLoop] + ' <br>'
+ }
+}">
+
+
+<input type=button value="Pop It" onclick="{'myFunction'
+ document.getElementById('myDiv1').innerHTML = ''
+ for (myLoop = 0; myLoop <= 7; myLoop++){
+   document.getElementById('myDiv1').innerHTML += myLoop +' '+ document.myName[myLoop].sort() + ' <br>'
+ }
+}">
+<div id="myDiv1">output here</div>

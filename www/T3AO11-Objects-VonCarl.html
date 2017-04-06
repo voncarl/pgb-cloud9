@@ -1,0 +1,131 @@
+<title>T3AO11-Objects-VonCarl.html</title>
+<html>
+<head>
+<h1 align=center> Objects by VonCarl</h1>
+<style>
+body {
+background-image: url("http://picview.info/download/20150530/spots-reflections-soft-light-1920x1080.jpg ");
+}
+
+</style>
+
+
+<script>
+document.myClass = new Array(4)
+
+   document.myClass[0] = new myStudent(16, 'Wolf','https://s-media-cache-ak0.pinimg.com/236x/4a/de/ec/4adeeca7b7aaf264ea5e1d00d4ce24e4.jpg' )
+    document.myClass[1] = new myStudent(23, 'Jaguar','https://images8.alphacoders.com/423/423240.jpg' )
+    document.myClass[2] = new myStudent(19, 'Lynx','http://www.strangefarmer.com/images/content/135692.jpg' )
+    document.myClass[3] = new myStudent(13, 'Hawk','http://g01.a.alicdn.com/kf/HTB1N5TjPVXXXXcBXFXXq6xXFXXXH/Cool-Ferocious-font-b-Eagle-b-font-Hawks-font-b-Animal-b-font-font-b-posters.jpg' )
+    document.myClass[4] = new myStudent(29, 'Tiger','http://wallpapercave.com/wp/3sPnI2M.jpg' )
+ 
+document.myCounter = 4
+
+// set the object
+function myStudent(myAge, myName, myImg){
+   this.myStudentAge = myAge
+   this.myStudentName = myName
+   this.myStudentImage = myImg
+   this.myInfo = myStudentInfo
+     this.myReturn = myReturnInfo
+}
+
+function myStudentInfo(){
+   document.getElementById('myDiv1').innerHTML += ' My name is ' + 
+       this.myStudentName + ' I am ' + this.myStudentAge +
+       ' years old. Here is my cool picture: <br><img width=100 src =' + this.myStudentImage +
+       '><br><br>'
+}
+
+function myReturnInfo(){
+   return ' My name is ' + this.myStudentName + ' I am ' +
+   this.myStudentAge +' years old. Here is my cool picture <br><img width=100 src =' + this.myStudentImage+
+   '><br><br>'
+}
+
+</script>
+
+<input type=button value="Wolf Object" onclick="{
+ document.getElementById('myDiv1').innerHTML = ''
+   document.myCounter ++
+   document.myClass[document.myCounter] = new myStudent(16, 'Wolf','https://s-media-cache-ak0.pinimg.com/236x/4a/de/ec/4adeeca7b7aaf264ea5e1d00d4ce24e4.jpg' )
+   document.myClass[document.myCounter].myInfo()
+}">
+
+
+<input type=button value="Jaguar Object" onclick="{
+ document.getElementById('myDiv1').innerHTML = ''
+   document.myCounter ++
+   document.myClass[document.myCounter] = new myStudent(23, 'Jaguar','https://images8.alphacoders.com/423/423240.jpg' )
+   document.myClass[document.myCounter].myInfo()
+}">
+
+
+<input type=button value="Lynx Object" onclick="{
+ document.getElementById('myDiv1').innerHTML = ''
+   document.myCounter ++
+   document.myClass[document.myCounter] = new myStudent(19, 'Lynx','http://www.strangefarmer.com/images/content/135692.jpg' )
+   document.myClass[document.myCounter].myInfo()
+}">
+
+
+<input type=button value="Hawk Object" onclick="{
+ document.getElementById('myDiv1').innerHTML = ''
+   document.myCounter ++
+   document.myClass[document.myCounter] = new myStudent(13, 'Hawk','http://g01.a.alicdn.com/kf/HTB1N5TjPVXXXXcBXFXXq6xXFXXXH/Cool-Ferocious-font-b-Eagle-b-font-Hawks-font-b-Animal-b-font-font-b-posters.jpg' )
+   document.myClass[document.myCounter].myInfo()
+}">
+
+
+<input type=button value="Tiger Object" onclick="{
+ document.getElementById('myDiv1').innerHTML = ''
+   document.myCounter ++
+   document.myClass[document.myCounter] = new myStudent(29, 'Tiger','http://wallpapercave.com/wp/3sPnI2M.jpg' )
+   document.myClass[document.myCounter].myInfo()
+}">
+
+<hr>
+<input type=button value="All Array Object" onClick="{
+   var temp = ''
+   for (myLoop=0; myLoop <= 4; myLoop++){
+     temp += '#'+myLoop + ' ' + document.myClass[myLoop].myReturn()
+
+   }
+   document.getElementById('myDiv1').innerHTML = temp
+   
+}">
+<hr>
+<input type=button value="Show Database" onClick="{
+   var temp = ''
+   for (myLoop=0; myLoop <= document.myCounter; myLoop++){
+     temp += '#'+myLoop + ' ' + document.myClass[myLoop].myReturn()
+
+   }
+   document.getElementById('myDiv1').innerHTML = temp
+   
+}">
+<hr>
+
+<div id="myDiv1">Output Here!!!</div><br><br><br>
+
+<input type=button value="Back" style="font-size:25px" onclick="{window.history.back()}"><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

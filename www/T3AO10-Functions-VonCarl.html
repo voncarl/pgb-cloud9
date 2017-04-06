@@ -1,0 +1,44 @@
+<title>T3AO10-Functions-VonCarl.html</title>
+<html>
+<head>
+<style>
+body {
+background-image: url("http://picview.info/download/20150530/spots-reflections-soft-light-1920x1080.jpg ");
+}
+</style>
+<script>
+function myAlert(myWords){
+    document.getElementById('myDiv1').innerHTML = myWords
+}
+</script>
+
+
+<h1 align=center>Functions By VonCarl</h1>
+
+<input id="myText1" size=100 type=text value="VonCarl <font color=red> Tongohan </font>."><br>
+
+<input type=button value="Regular Function" onclick="{
+ myAlert(document.getElementById('myText1').value)
+ 
+}">
+
+<input type=button value="jQuery Function" onclick="{
+   (function (){
+      document.getElementById('myDiv1').innerHTML= 'It Works!!!'
+   })()
+}">
+
+<script>
+ 
+document.hide = function(myWords) {
+     document.getElementById('myDiv1').innerHTML= 'You Did It!!! '+myWords + ' jQuery style'
+}
+
+   
+    
+</script>
+
+<input type=button value="jQuery Hide" onclick="{
+document.hide = function(myWords)
+ }">
+<div id="myDiv1">Output goes here</div>
