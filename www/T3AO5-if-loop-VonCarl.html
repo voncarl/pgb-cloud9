@@ -19,31 +19,50 @@ body {
 <h2 style="font-size:45px; color:red;">  </h2>
 <h1 align=center>If Loops by VonCarl</h1>
 
+<p style= font-family:courier;font-size:150%;><strong>COLORS</strong></font><br><br>
 
-Write a Loop number and then your name on each line
-for 100 lines<br><br>
-
-<textarea id="myArea01" >VonCarl</textarea><br><br>
+<textarea id="myArea01" ></textarea><br>
   
 <input type=button value="click me" onclick="{
 
- for (myNum = 1; myNum<= 7; myNum++){
+ for (myNum = 1; myNum<=9 ; myNum++){
   
-     if(myNum %2 == 1) {
+     if(myNum == 1) {
        document.getElementById('myDiv01').innerHTML += 
        '<font Color=green style=background-color:red;>Loop is ' + myNum + '<br> </font>'
- }  else {
+ }  else if(myNum == 2) {
     document.getElementById('myDiv01').innerHTML += 
-     'Loop is '+ myNum + '<br>'
-    }
+     '<font Color=black style=background-color:orange;>Loop is '+ myNum + '<br>'
+    } else if(myNum == 3) {
+    document.getElementById('myDiv01').innerHTML += 
+     '<font Color=red style=background-color:purple;>Loop is '+ myNum + '<br>'
+    } else if(myNum == 4) {
+    document.getElementById('myDiv01').innerHTML += 
+     '<font Color=orange style=background-color:blue;>Loop is '+ myNum + '<br>'
+  } else if(myNum == 5) {
+    document.getElementById('myDiv01').innerHTML += 
+     '<font Color=blue style=background-color:green;>Loop is '+ myNum + '<br>'
+  } else if(myNum == 6) {
+    document.getElementById('myDiv01').innerHTML += 
+     '<font Color=gray style=background-color:violet;>Loop is '+ myNum + '<br>'
+  } else if(myNum == 7) {
+    document.getElementById('myDiv01').innerHTML += 
+     '<font Color=white style=background-color:green;>Loop is '+ myNum + '<br>'
+  } else if(myNum == 8) {
+    document.getElementById('myDiv01').innerHTML += 
+     '<font Color=magenta style=background-color:black;>Loop is '+ myNum + '<br>'
+     } else if(myNum == 9) {
+    document.getElementById('myDiv01').innerHTML += 
+     '<font Color=orange style=background-color:purple;>Loop is '+ myNum + '<br>'
   }
+ }
  
 
 
  document.getElementById('myDiv01').innerHTML +=
    document.getElementById('myArea01').value
    
-}"><br><br>
+}">
 <div id="myDiv01"></div>
 
 
